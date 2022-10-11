@@ -1,0 +1,17 @@
+@media only screen and (max-width: 600px) {
+    .destaques__principal, .destaques__categorias {
+        grid-column: 1 / 5 ;
+    }
+    .destaques__secundario{
+        grid-column: none;
+        grid-row: none;
+        display: none;
+    }
+    .populares__header{
+        flex-direction: column;
+    }
+    .populares__card{
+        width: 100%;
+        margin-bottom: 2rem;
+    }
+}
